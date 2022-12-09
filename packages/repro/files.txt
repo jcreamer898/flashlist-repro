@@ -1,0 +1,410 @@
+
+> flashlist-repro@1.0.0 build
+> tsc --explainFiles
+
+node_modules/typescript/lib/lib.es5.d.ts
+  Library referenced via 'es5' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es5' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.d.ts
+  Library referenced via 'es2015' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+  Library referenced via 'es2015' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+node_modules/typescript/lib/lib.es2016.d.ts
+  Library referenced via 'es2016' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+  Library referenced via 'es2016' from file 'node_modules/typescript/lib/lib.es2016.full.d.ts'
+node_modules/typescript/lib/lib.es2017.d.ts
+  Library referenced via 'es2017' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+node_modules/typescript/lib/lib.es2018.d.ts
+  Library referenced via 'es2018' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2019.d.ts
+  Library referenced via 'es2019' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.d.ts
+  Library referenced via 'es2020' from file 'node_modules/@types/node/index.d.ts'
+node_modules/typescript/lib/lib.dom.d.ts
+  Library referenced via 'dom' from file 'node_modules/typescript/lib/lib.es2016.full.d.ts'
+node_modules/typescript/lib/lib.dom.iterable.d.ts
+  Library referenced via 'dom.iterable' from file 'node_modules/typescript/lib/lib.es2016.full.d.ts'
+node_modules/typescript/lib/lib.webworker.importscripts.d.ts
+  Library referenced via 'webworker.importscripts' from file 'node_modules/typescript/lib/lib.es2016.full.d.ts'
+node_modules/typescript/lib/lib.scripthost.d.ts
+  Library referenced via 'scripthost' from file 'node_modules/typescript/lib/lib.es2016.full.d.ts'
+node_modules/typescript/lib/lib.es2015.core.d.ts
+  Library referenced via 'es2015.core' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.core' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.collection.d.ts
+  Library referenced via 'es2015.collection' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.collection' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.generator.d.ts
+  Library referenced via 'es2015.generator' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.generator' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.iterable.d.ts
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.generator.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2018.asynciterable.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2019.object.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2020.string.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.iterable' from file 'node_modules/typescript/lib/lib.es2015.generator.d.ts'
+node_modules/typescript/lib/lib.es2015.promise.d.ts
+  Library referenced via 'es2015.promise' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.promise' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.proxy.d.ts
+  Library referenced via 'es2015.proxy' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.proxy' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.reflect.d.ts
+  Library referenced via 'es2015.reflect' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.reflect' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2015.symbol.d.ts
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.iterable.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2018.asynciterable.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.iterable.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.symbol' from file 'node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts'
+node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+  Library referenced via 'es2015.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+  Library referenced via 'es2015.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts'
+  Library referenced via 'es2015.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2015.d.ts'
+node_modules/typescript/lib/lib.es2016.array.include.d.ts
+  Library referenced via 'es2016.array.include' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+  Library referenced via 'es2016.array.include' from file 'node_modules/typescript/lib/lib.es2016.d.ts'
+node_modules/typescript/lib/lib.es2017.object.d.ts
+  Library referenced via 'es2017.object' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+  Library referenced via 'es2017.sharedmemory' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+node_modules/typescript/lib/lib.es2017.string.d.ts
+  Library referenced via 'es2017.string' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+node_modules/typescript/lib/lib.es2017.intl.d.ts
+  Library referenced via 'es2017.intl' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+  Library referenced via 'es2017.typedarrays' from file 'node_modules/typescript/lib/lib.es2017.d.ts'
+node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+  Library referenced via 'es2018.asyncgenerator' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+  Library referenced via 'es2018.asynciterable' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+  Library referenced via 'es2018.asynciterable' from file 'node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts'
+  Library referenced via 'esnext.asynciterable' from file 'node_modules/@types/node/index.d.ts'
+node_modules/typescript/lib/lib.es2018.intl.d.ts
+  Library referenced via 'es2018.intl' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+  Library referenced via 'es2018.intl' from file 'node_modules/typescript/lib/lib.es2020.intl.d.ts'
+node_modules/typescript/lib/lib.es2018.promise.d.ts
+  Library referenced via 'es2018.promise' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+node_modules/typescript/lib/lib.es2018.regexp.d.ts
+  Library referenced via 'es2018.regexp' from file 'node_modules/typescript/lib/lib.es2018.d.ts'
+node_modules/typescript/lib/lib.es2019.array.d.ts
+  Library referenced via 'es2019.array' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2019.object.d.ts
+  Library referenced via 'es2019.object' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2019.string.d.ts
+  Library referenced via 'es2019.string' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2019.symbol.d.ts
+  Library referenced via 'es2019.symbol' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2019.intl.d.ts
+  Library referenced via 'es2019.intl' from file 'node_modules/typescript/lib/lib.es2019.d.ts'
+node_modules/typescript/lib/lib.es2020.bigint.d.ts
+  Library referenced via 'es2020.bigint' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+  Library referenced via 'esnext.bigint' from file 'node_modules/@types/node/index.d.ts'
+node_modules/typescript/lib/lib.es2020.date.d.ts
+  Library referenced via 'es2020.date' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.promise.d.ts
+  Library referenced via 'es2020.promise' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts
+  Library referenced via 'es2020.sharedmemory' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.string.d.ts
+  Library referenced via 'es2020.string' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts
+  Library referenced via 'es2020.symbol.wellknown' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.intl.d.ts
+  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.bigint.d.ts'
+  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.date.d.ts'
+  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.number.d.ts'
+  Library referenced via 'es2020.intl' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.es2020.number.d.ts
+  Library referenced via 'es2020.number' from file 'node_modules/typescript/lib/lib.es2020.d.ts'
+node_modules/typescript/lib/lib.esnext.intl.d.ts
+  Library referenced via 'esnext.intl' from file 'node_modules/@types/node/index.d.ts'
+node_modules/typescript/lib/lib.es2016.full.d.ts
+  Default library for target 'es2016'
+node_modules/@types/react/global.d.ts
+  Referenced via 'global.d.ts' from file 'node_modules/@types/react/index.d.ts'
+node_modules/csstype/index.d.ts
+  Imported via 'csstype' from file 'node_modules/@types/react/index.d.ts' with packageId 'csstype/index.d.ts@3.1.1'
+node_modules/@types/prop-types/index.d.ts
+  Imported via 'prop-types' from file 'node_modules/@types/react/index.d.ts' with packageId '@types/prop-types/index.d.ts@15.7.5'
+  Entry point for implicit type library 'prop-types' with packageId '@types/prop-types/index.d.ts@15.7.5'
+node_modules/@types/scheduler/tracing.d.ts
+  Imported via 'scheduler/tracing' from file 'node_modules/@types/react/index.d.ts' with packageId '@types/scheduler/tracing.d.ts@0.16.2'
+node_modules/@types/react/index.d.ts
+  Imported via "react" from file 'src/index.tsx' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via 'react' from file 'node_modules/@types/react-native/index.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/FlashList.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/recyclerlistview/dist/reactnative/utils/ComponentCompat.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/FlashListProps.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Type library referenced via 'react' from file 'node_modules/@shopify/flash-list/dist/AnimatedFlashList.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/AnimatedFlashList.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/MasonryFlashList.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via "react" from file 'node_modules/@shopify/flash-list/dist/native/cell-container/CellContainer.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+  Imported via 'react' from file 'node_modules/@types/react-dom/index.d.ts' with packageId '@types/react/index.d.ts@17.0.45'
+node_modules/@types/react-native/globals.d.ts
+  Referenced via 'globals.d.ts' from file 'node_modules/@types/react-native/index.d.ts'
+node_modules/@types/react-native/legacy-properties.d.ts
+  Referenced via 'legacy-properties.d.ts' from file 'node_modules/@types/react-native/index.d.ts'
+node_modules/@types/react-native/BatchedBridge.d.ts
+  Referenced via 'BatchedBridge.d.ts' from file 'node_modules/@types/react-native/index.d.ts'
+node_modules/@types/react-native/Devtools.d.ts
+  Referenced via 'Devtools.d.ts' from file 'node_modules/@types/react-native/index.d.ts'
+node_modules/@types/react-native/LaunchScreen.d.ts
+  Referenced via 'LaunchScreen.d.ts' from file 'node_modules/@types/react-native/index.d.ts'
+node_modules/@types/react-native/index.d.ts
+  Imported via "react-native" from file 'src/index.tsx' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via 'react-native' from file 'node_modules/@types/react-native/legacy-properties.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/FlashListProps.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/AnimatedFlashList.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/benchmark/useFlatListBenchmark.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/MasonryFlashList.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Imported via "react-native" from file 'node_modules/@shopify/flash-list/dist/native/cell-container/CellContainer.d.ts' with packageId '@types/react-native/index.d.ts@0.64.29'
+  Entry point for implicit type library 'react-native' with packageId '@types/react-native/index.d.ts@0.64.29'
+node_modules/recyclerlistview/dist/reactnative/core/dependencies/ContextProvider.d.ts
+  Imported via "./core/dependencies/ContextProvider" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/ContextProvider.d.ts@4.2.0'
+  Imported via "./dependencies/ContextProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/ContextProvider.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/dependencies/DataProvider.d.ts
+  Imported via "./core/dependencies/DataProvider" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/DataProvider.d.ts@4.2.0'
+  Imported via "./dependencies/DataProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/DataProvider.d.ts@4.2.0'
+  Imported via "./dependencies/DataProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/DataProvider.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts
+  Imported via "../layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "../layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/dependencies/GridLayoutProvider.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "./layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "./layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "./layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "./core/layoutmanager/LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+  Imported via "./LayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/GridLayoutManager.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts
+  Imported via "./core/dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "../dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/LayoutManager.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "./LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/dependencies/GridLayoutProvider.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "./dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "../dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "./dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "./dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "./../dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/GridLayoutManager.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+  Imported via "../dependencies/LayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/GridLayoutManager.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/LayoutProvider.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/dependencies/GridLayoutProvider.d.ts
+  Imported via "./core/dependencies/GridLayoutProvider" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/dependencies/GridLayoutProvider.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts
+  Imported via "./scrollcomponent/BaseScrollView" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts@4.2.0'
+  Imported via "./core/scrollcomponent/BaseScrollView" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/scrollcomponent/BaseScrollView.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts
+  Imported via "./ViewabilityTracker" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts@4.2.0'
+  Imported via "./ViewabilityTracker" from file 'node_modules/recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts@4.2.0'
+  Imported via "./core/ViewabilityTracker" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ViewabilityTracker.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts
+  Imported via "./VirtualRenderer" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/VirtualRenderer.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/ItemAnimator.d.ts
+  Imported via "./ItemAnimator" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ItemAnimator.d.ts@4.2.0'
+  Imported via "./core/ItemAnimator" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ItemAnimator.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/utils/ComponentCompat.d.ts
+  Imported via "../utils/ComponentCompat" from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/utils/ComponentCompat.d.ts@4.2.0'
+  Imported via "./utils/ComponentCompat" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/utils/ComponentCompat.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts
+  Imported via "./core/RecyclerListView" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts@4.2.0'
+  Imported via "./RecyclerListView" from file 'node_modules/recyclerlistview/dist/reactnative/core/ProgressiveListView.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/utils/AutoScroll.d.ts
+  Imported via "./utils/AutoScroll" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/utils/AutoScroll.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/layoutmanager/GridLayoutManager.d.ts
+  Imported via "./core/layoutmanager/GridLayoutManager" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/layoutmanager/GridLayoutManager.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/ProgressiveListView.d.ts
+  Imported via "./core/ProgressiveListView" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/ProgressiveListView.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/devutils/debughandlers/resize/ResizeDebugHandler.d.ts
+  Imported via "./resize/ResizeDebugHandler" from file 'node_modules/recyclerlistview/dist/reactnative/core/devutils/debughandlers/DebugHandlers.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/devutils/debughandlers/resize/ResizeDebugHandler.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/core/devutils/debughandlers/DebugHandlers.d.ts
+  Imported via "./core/devutils/debughandlers/DebugHandlers" from file 'node_modules/recyclerlistview/dist/reactnative/index.d.ts' with packageId 'recyclerlistview/dist/reactnative/core/devutils/debughandlers/DebugHandlers.d.ts@4.2.0'
+node_modules/recyclerlistview/dist/reactnative/index.d.ts
+  Imported via "recyclerlistview" from file 'node_modules/@shopify/flash-list/dist/FlashList.d.ts' with packageId 'recyclerlistview/dist/reactnative/index.d.ts@4.2.0'
+  Imported via ".." from file 'node_modules/recyclerlistview/dist/reactnative/core/RecyclerListView.d.ts'
+  Imported via "../../../.." from file 'node_modules/recyclerlistview/dist/reactnative/core/devutils/debughandlers/resize/ResizeDebugHandler.d.ts'
+  Imported via "recyclerlistview" from file 'node_modules/@shopify/flash-list/dist/GridLayoutProviderWithProps.d.ts' with packageId 'recyclerlistview/dist/reactnative/index.d.ts@4.2.0'
+node_modules/@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts
+  Imported via "./native/auto-layout/AutoLayoutView" from file 'node_modules/@shopify/flash-list/dist/FlashListProps.d.ts' with packageId '@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts@1.4.0'
+  Imported via "./native/auto-layout/AutoLayoutView" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts@1.4.0'
+  Imported via "../native/auto-layout/AutoLayoutView" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts' with packageId '@shopify/flash-list/dist/native/auto-layout/AutoLayoutView.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/viewability/ViewToken.d.ts
+  Imported via "./viewability/ViewToken" from file 'node_modules/@shopify/flash-list/dist/FlashListProps.d.ts' with packageId '@shopify/flash-list/dist/viewability/ViewToken.d.ts@1.4.0'
+  Imported via "./viewability/ViewToken" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/viewability/ViewToken.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/FlashListProps.d.ts
+  Imported via "./FlashListProps" from file 'node_modules/@shopify/flash-list/dist/GridLayoutProviderWithProps.d.ts' with packageId '@shopify/flash-list/dist/FlashListProps.d.ts@1.4.0'
+  Imported via "./FlashListProps" from file 'node_modules/@shopify/flash-list/dist/FlashList.d.ts' with packageId '@shopify/flash-list/dist/FlashListProps.d.ts@1.4.0'
+  Imported via "./FlashListProps" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/FlashListProps.d.ts@1.4.0'
+  Imported via "./FlashListProps" from file 'node_modules/@shopify/flash-list/dist/AnimatedFlashList.d.ts' with packageId '@shopify/flash-list/dist/FlashListProps.d.ts@1.4.0'
+  Imported via "./FlashListProps" from file 'node_modules/@shopify/flash-list/dist/MasonryFlashList.d.ts' with packageId '@shopify/flash-list/dist/FlashListProps.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/GridLayoutProviderWithProps.d.ts
+  Imported via "./GridLayoutProviderWithProps" from file 'node_modules/@shopify/flash-list/dist/FlashList.d.ts' with packageId '@shopify/flash-list/dist/GridLayoutProviderWithProps.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/FlashList.d.ts
+  Imported via "./FlashList" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/FlashList.d.ts@1.4.0'
+  Imported via "../FlashList" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts' with packageId '@shopify/flash-list/dist/FlashList.d.ts@1.4.0'
+  Imported via "../FlashList" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts' with packageId '@shopify/flash-list/dist/FlashList.d.ts@1.4.0'
+  Imported via "./FlashList" from file 'node_modules/@shopify/flash-list/dist/MasonryFlashList.d.ts' with packageId '@shopify/flash-list/dist/FlashList.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/AnimatedFlashList.d.ts
+  Imported via "./AnimatedFlashList" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/AnimatedFlashList.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/JSFPSMonitor.d.ts
+  Imported via "./JSFPSMonitor" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts' with packageId '@shopify/flash-list/dist/benchmark/JSFPSMonitor.d.ts@1.4.0'
+  Imported via "./benchmark/JSFPSMonitor" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/JSFPSMonitor.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts
+  Imported via "./useBlankAreaTracker" from file 'node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts@1.4.0'
+  Imported via "./benchmark/useBlankAreaTracker" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useBlankAreaTracker.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts
+  Imported via "./benchmark/useBenchmark" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useBenchmark.d.ts@1.4.0'
+  Imported via "./useBenchmark" from file 'node_modules/@shopify/flash-list/dist/benchmark/useFlatListBenchmark.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useBenchmark.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/useDataMultiplier.d.ts
+  Imported via "./benchmark/useDataMultiplier" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useDataMultiplier.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/useFlatListBenchmark.d.ts
+  Imported via "./benchmark/useFlatListBenchmark" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/useFlatListBenchmark.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/MasonryFlashList.d.ts
+  Imported via "./MasonryFlashList" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/MasonryFlashList.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/benchmark/AutoScrollHelper.d.ts
+  Imported via "./benchmark/AutoScrollHelper" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/benchmark/AutoScrollHelper.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/native/cell-container/CellContainer.d.ts
+  Imported via "./native/cell-container/CellContainer" from file 'node_modules/@shopify/flash-list/dist/index.d.ts' with packageId '@shopify/flash-list/dist/native/cell-container/CellContainer.d.ts@1.4.0'
+node_modules/@shopify/flash-list/dist/index.d.ts
+  Imported via "@shopify/flash-list" from file 'src/index.tsx' with packageId '@shopify/flash-list/dist/index.d.ts@1.4.0'
+  Imported via ".." from file 'node_modules/@shopify/flash-list/dist/benchmark/useBenchmark.d.ts'
+src/index.tsx
+  Matched by include pattern 'src/' in 'tsconfig.json'
+node_modules/@types/node/assert.d.ts
+  Referenced via 'assert.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/assert/strict.d.ts
+  Referenced via 'assert/strict.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/globals.d.ts
+  Referenced via 'globals.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/async_hooks.d.ts
+  Referenced via 'async_hooks.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/buffer.d.ts
+  Referenced via 'buffer.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/child_process.d.ts
+  Referenced via 'child_process.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/cluster.d.ts
+  Referenced via 'cluster.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/console.d.ts
+  Referenced via 'console.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/constants.d.ts
+  Referenced via 'constants.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/crypto.d.ts
+  Referenced via 'crypto.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/dgram.d.ts
+  Referenced via 'dgram.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/diagnostics_channel.d.ts
+  Referenced via 'diagnostics_channel.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/dns.d.ts
+  Referenced via 'dns.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/dns/promises.d.ts
+  Referenced via 'dns/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+  Referenced via 'dns/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/domain.d.ts
+  Referenced via 'domain.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/dom-events.d.ts
+  Referenced via 'dom-events.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/events.d.ts
+  Referenced via 'events.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/fs.d.ts
+  Referenced via 'fs.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/fs/promises.d.ts
+  Referenced via 'fs/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/http.d.ts
+  Referenced via 'http.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/http2.d.ts
+  Referenced via 'http2.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/https.d.ts
+  Referenced via 'https.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/inspector.d.ts
+  Referenced via 'inspector.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/module.d.ts
+  Referenced via 'module.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/net.d.ts
+  Referenced via 'net.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/os.d.ts
+  Referenced via 'os.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/path.d.ts
+  Referenced via 'path.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/perf_hooks.d.ts
+  Referenced via 'perf_hooks.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/process.d.ts
+  Referenced via 'process.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/punycode.d.ts
+  Referenced via 'punycode.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/querystring.d.ts
+  Referenced via 'querystring.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/readline.d.ts
+  Referenced via 'readline.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/readline/promises.d.ts
+  Referenced via 'readline/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/repl.d.ts
+  Referenced via 'repl.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/stream.d.ts
+  Referenced via 'stream.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/stream/promises.d.ts
+  Referenced via 'stream/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/stream/consumers.d.ts
+  Referenced via 'stream/consumers.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/stream/web.d.ts
+  Referenced via 'stream/web.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/string_decoder.d.ts
+  Referenced via 'string_decoder.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/test.d.ts
+  Referenced via 'test.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/timers.d.ts
+  Referenced via 'timers.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/timers/promises.d.ts
+  Referenced via 'timers/promises.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/tls.d.ts
+  Referenced via 'tls.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/trace_events.d.ts
+  Referenced via 'trace_events.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/tty.d.ts
+  Referenced via 'tty.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/url.d.ts
+  Referenced via 'url.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/util.d.ts
+  Referenced via 'util.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/v8.d.ts
+  Referenced via 'v8.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/vm.d.ts
+  Referenced via 'vm.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/wasi.d.ts
+  Referenced via 'wasi.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/worker_threads.d.ts
+  Referenced via 'worker_threads.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/zlib.d.ts
+  Referenced via 'zlib.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/globals.global.d.ts
+  Referenced via 'globals.global.d.ts' from file 'node_modules/@types/node/index.d.ts'
+node_modules/@types/node/index.d.ts
+  Type library referenced via 'node' from file 'node_modules/@types/graceful-fs/index.d.ts' with packageId '@types/node/index.d.ts@18.11.12'
+node_modules/@types/graceful-fs/index.d.ts
+  Entry point for implicit type library 'graceful-fs' with packageId '@types/graceful-fs/index.d.ts@4.1.5'
+node_modules/@types/istanbul-lib-coverage/index.d.ts
+  Entry point for implicit type library 'istanbul-lib-coverage' with packageId '@types/istanbul-lib-coverage/index.d.ts@2.0.4'
+  Imported via 'istanbul-lib-coverage' from file 'node_modules/@types/istanbul-lib-report/index.d.ts' with packageId '@types/istanbul-lib-coverage/index.d.ts@2.0.4'
+node_modules/@types/istanbul-lib-report/index.d.ts
+  Entry point for implicit type library 'istanbul-lib-report' with packageId '@types/istanbul-lib-report/index.d.ts@3.0.0'
+  Imported via 'istanbul-lib-report' from file 'node_modules/@types/istanbul-reports/index.d.ts' with packageId '@types/istanbul-lib-report/index.d.ts@3.0.0'
+node_modules/@types/istanbul-reports/index.d.ts
+  Entry point for implicit type library 'istanbul-reports' with packageId '@types/istanbul-reports/index.d.ts@3.0.1'
+node_modules/@types/react-dom/index.d.ts
+  Entry point for implicit type library 'react-dom' with packageId '@types/react-dom/index.d.ts@17.0.18'
+node_modules/@types/scheduler/index.d.ts
+  Entry point for implicit type library 'scheduler' with packageId '@types/scheduler/index.d.ts@0.16.2'
+node_modules/@types/yargs-parser/index.d.ts
+  Imported via 'yargs-parser' from file 'node_modules/@types/yargs/index.d.ts' with packageId '@types/yargs-parser/index.d.ts@21.0.0'
+  Entry point for implicit type library 'yargs-parser' with packageId '@types/yargs-parser/index.d.ts@21.0.0'
+node_modules/@types/yargs/index.d.ts
+  Entry point for implicit type library 'yargs' with packageId '@types/yargs/index.d.ts@15.0.14'
